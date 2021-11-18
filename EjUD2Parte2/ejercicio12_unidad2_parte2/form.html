@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Seleccione los archivos deseados</h2>
+        <form name="formulario" method="post" action="..." enctype="multipart/form-data"> <!-- EL atributo enctype es obligatorio a la hora de adjuntar archivos y debe tomar el valor de "multipart/form-data"	 	 -->
+        <input type="hidden" name="MAX_FILE_SIZE" value="20971520" /> <!-- Limitador 20 MB -->
+        <input type="file" name="archivo"  accept=".pdf,.jpg,.png" multiple /><br><br>
+        <input type="submit" value="Submit" ><br> <!-- Filtro solo para permitir imágenes -->
+    </form>
+</body>
+</html>

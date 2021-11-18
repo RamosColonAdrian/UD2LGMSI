@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #name {
+            box-sizing: content-box;
+            width: 140px;
+        }
+        #surname {
+            box-sizing: content-box;
+            width: 200px;
+        }
+        #pass {
+            box-sizing: content-box;
+            width: 140px;
+        }
+        #dni {
+            box-sizing: content-box;
+            width: 80px;
+        }
+    </style>
+</head>     
+<body>
+    <h1>Rellena tu CV</h1>
+
+<form id="formulario1" id="formulario1" method="post" action="cv.php" enctype="multipart/form-data">
+  <label for="name">Nombre</label><br>
+  <input maxlength="10" type="text" id="name" name="name"><br>
+
+
+  <label for="surname">Apellidos</label><br>
+  <input maxlength="30" type="text" id="surname" name="name"><br>
+
+  <label for="pass">Contraseña</label><br>
+  <input maxlength="10" type="password" id="pass" name="pass"><br>
+
+  <label for="surname">DNI</label><br>
+  <input maxlength="9" type="text" id="dni" name="dni"><br>
+
+  <label for="Sexo">Sexo</label><br>
+
+  <input type="radio" id="hombre" name="hombre" checked>
+  <label for="hombre">Hombre</label><br>
+  
+  <input type="radio" id="mujer" name="mujer">
+  <label for="mujer">Mujer</label><br><br>
+
+  <label for="foto">Incluir mi foto</label>
+  <input id="foto" type="file" name="foto"  accept="image/*"  /><br><br>
+
+  <input type="checkbox" id="sub" checked>
+  <label for="sub">Suscríbeme al boletín de novedades</label><br><br>
+
+
+  <input type="submit" value="Guardar cambios">
+  <input type="reset" value="Borrar los datos introducidos">
+
+ 
+</form>
+
+
+
+</body>
+</html>
+</body>
+</html>

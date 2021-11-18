@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form id="formulario3" name="formulario3" action="datoscv.php" method="post">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="provincia">Provincia</label><br>
+        <select name="Provincia" id="provincia">
+            <option value="0"> &lt; selecciona &gt;</option>
+            <option value="huelva"> Huelva</option>
+            <option value="sevilla"> Sevilla</option>
+            <option value="cadiz"> Cádiz</option>
+            <option value="malaga">Málaga</option>
+            <option value="huelva"> Huelva</option>
+            <option value="córdoba">Córdoba</option>
+            <option value="jaen"> Jaén</option>
+            <option value="huelva"> Huelva</option>
+            <option value="almeria"> Almería</option>
+        </select><br>
+        
+        <label for="nacimiento">Fecha de nacimiento</label><br>
+        <input type="number" min="1" max="31"> <p style="display: inline;"> de </p>
+       
+        <select name="Provincia" id="provincia">
+            <option value="enero"> Enero</option>
+            <option value="ebrero"> Febrero</option>
+            <option value="marza"> Marzo</option>
+            <option value="abril">Abril</option>
+            <option value="mayo"> Mayo</option>
+            <option value="junio">Junio</option>
+            <option value="julio"> Julio</option>
+            <option value="agosto"> Agosto</option>
+            <option value="septiembre"> Septiembre</option>
+            <option value="octubre"> Octubre</option>
+            <option value="noviembre"> Noviembre</option>
+            <option value="diciembre"> Diciembre</option>
+        </select>
+        <p style="display: inline;"> de </p><input type="number" min="1900" max="2021"> 
+        <br>
+        <label for="interes">Temas de Interés</label><br>
+        <select size="5" name="intereses" id="intereses">
+            <option value="abd"> Administración de bases de datos</option>
+            <option value="ap"> Analisis y programación</option>
+            <option value="marza"> Marzo</option>
+            <option value="arq">Arquitectura</option>
+            <option value="qua"> Calidad</option>
+            <option value="lm"> Lenguaje de marcas</option>
+            <option value="ef"> Entornos Gráficos</option>
+        </select>
+
+       
+    </fieldset>
+   </form>
+</body>
+</html>

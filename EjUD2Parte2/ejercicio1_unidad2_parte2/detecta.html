@@ -1,0 +1,35 @@
+<!DOCTYPE html>   
+<html lang="es">    <!-- Según indica la W3C, el atributo que se debe usar para declarar el idioma de la página es lang dentro de <html>  -->
+<head>
+<!--<meta http-equiv="content-language" content="es" />   Según indica la W3C, el uso del valor content-lenguage del atributo http-equiv está obsoleto y no se debe usar <html>  -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="Página de ejemplo que muestra hola">
+    <meta name="keywords" content="HTML, CSS y LMSGI">
+    <meta name="author" content="Adrián Ramos">
+    <title>ejercicio1_unidad2_parte2</title>
+    <link href="misEstilos.css" rel="stylesheet" />
+<!-- En esta página estamos probando la etiqueta meta y sus atributos  -->
+</head>
+<body>
+    <p>Hola usuario</p> 
+    
+    <script type="text/javascript">
+        location.href = "scriptHabilitado.html";
+    </script>
+    <noscript>
+        <h1>Comprobando si javascript está habilitado</h1>
+        <div class="deshabilitado">
+            <img src="images/error.png" alt="Javascript deshabilitado" />
+            Javascript está deshabilitado en su navegador web.<br />
+            Por favor, para ver correctamente este sitio,<br />
+            <b><i>habilite javascript</i></b>.<br />
+            <br />
+            Para ver las instrucciones para habilitar javascript<br />
+            en su navegador, haga click 
+            <a href="http://www.enable-javascript.com/es/" 
+            target="_blank">aquí</a>.
+        </div>
+    </noscript>
+    
+</body>
+</html>

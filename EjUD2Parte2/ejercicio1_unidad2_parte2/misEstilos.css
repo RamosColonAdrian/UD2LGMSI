@@ -1,0 +1,75 @@
+@font-face
+{
+    font-family: cella;
+    src: url('fonts/cella.ttf'), 
+         url('fonts/cella.eot'); 
+}
+
+
+p
+{
+    font-size: 40px;
+    font-family: cella;
+    text-align: center;
+    background-color: rgba(26, 144, 212, 0.445);
+    color: darkblue;
+    width: 100%;
+}
+
+
+h1
+{
+    font-family: 'Book Antiqua';
+    text-align: center;
+    background-color: salmon;
+    color: darkblue;
+    width: 100%;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+table
+{
+    margin: 0 auto;
+}
+
+
+
+.deshabilitado
+{
+    padding-left: 20px;
+    padding-top: 60px;
+    background-color: Salmon;
+    -moz-box-shadow: 10px 10px black;
+    -webkit-box-shadow: 10px 10px black;
+    box-shadow: 10px 10px black;
+    width: 480px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -240px;
+    font-family: cella;
+    font-size: 18px;
+    text-align: center;
+}
+
+div.green
+{
+    background-color: LightGreen;
+    -moz-box-shadow: 10px 10px black;
+    -webkit-box-shadow: 10px 10px black;
+    box-shadow: 10px 10px black;
+    width: 480px;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: cella;
+    font-size: 18px;
+}

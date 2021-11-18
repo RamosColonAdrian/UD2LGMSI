@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" >
+        <caption>TABLA EXTERNA (TE)</caption>
+        
+        <tr>
+            <td rowspan="3">Yo soy una celda de la TE que surge de combinar 3 celdas</td>
+            <td>Yo soy una celda normal de la TE</td>
+            
+        </tr>
+        <td>
+            <table border="1">
+                <caption>TABLA INTERNA (TI)</caption>
+                <tr>
+                    <td colspan="4">Soy una celda de la TI que surge de combinar 4 celdas</td>
+                    
+                </tr>
+        
+                <tr>
+                    <td>Yo soy una celda normal de la TI</td>
+                    <td>Yo soy una celda normal de la TI</td>
+                    <td>Yo soy una celda normal de la TI</td>
+                    <td>Yo soy una celda normal de la TI</td>
+                </tr>
+            </table>
+        </td>   
+        <tr>
+            <td>Yo soy una celda normal de la (TE)</td>
+            
+        </tr>
+</table>
+</body>
+</html>

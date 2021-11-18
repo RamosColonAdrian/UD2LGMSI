@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Información sobre el producto</h3>
+    <fieldset>
+        <legend>Datos básicos</legend>
+
+        <label for="nombre">Nombre</label><br>
+        <input maxlength="15" type="text" name="nombre" id="nombre"><br><br>
+
+        <label for="description">Descripción</label><br>
+        <textarea maxlength="500" style=" overflow-y: scroll;" name="description" id="description" cols="40" rows="6"></textarea><br><br>
+    
+        <label for="foto">Foto</label>
+        <input type="file" name="foto" id="foto" accept="image/*"><br><br>
+    
+        <input type="checkbox" id="sub" >
+        <label for="visitas">Añadir contador de visitas</label>
+      
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos económicos</legend>
+
+        <label for="precio">Precio</label><br>
+        <input type="number"  name="precio" id="precio"> <p style="display: inline;">&#8364</p>
+
+        <label for="impuestos">Impuestos</label>
+    
+        <select name="intereses" id="intereses">
+            <option value="4">4&#37;</option>
+            <option value="7">7&#37;</option>
+            <option value="16">16&#37;</option>
+            <option value="25">25&#37;</option>
+        </select><br><br>
+    
+        <label for="promocion">Promoción</label><br>
+
+        <input type="radio" id="none" name="none" checked>
+        <label for="none">Ninguno</label><br>
+
+        <input type="radio" id="free" name="free">
+        <label for="free">Transporte gratuito</label><br>
+
+        <input type="radio" id="des" name="des">
+        <label for="des">Descuento 5&#37;</label>
+
+      
+    </fieldset>
+
+    
+</body>
+</html>
